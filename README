@@ -12,12 +12,11 @@ ES6-based front end project.
 Installation (without cookiecutter - skip if installed)
 -------------------------------------------------------
 
-> git clone git@github.com:demianbrecht/cookiecutter-es6babelpack.git
-> cd cookiecutter-es6babelpack
-> make cookiecutter
+> curl https://bootstrap.pypa.io/get-pip.py | python
+> pip install cookiecutter
 
-Note: You'll have to run `make cookiecutter` as sudo unless you're running
-from a Python virtualenv.
+Note: You'll have to run the above as sudo unless you're running from a Python
+virtualenv.
 
 
 Running
