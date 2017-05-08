@@ -38,3 +38,6 @@ npm dependencies required to get you up and running. At this point, the only
 other targets of interest are `serve` and `test`. `test` will run mocha
 tests and `serve` will run the project through a webpack-dev-server (source
 code will automatically be rebuilt).
+
+After running `make serve`, `open localhost:8080` should result in a page with
+"hello, <NAME>!" inserted into the DOM.
