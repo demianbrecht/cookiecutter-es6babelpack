@@ -1,1 +1,40 @@
+Note: This is the result of very early stage research on current web client
+development trends and will likely change.
+
+
 cookiecutter-es6babelpack
+=========================
+
+This is a simple cookiecutter project to get you up and running with an
+ES6-based front end project.
+
+
+Installation (without cookiecutter - skip if installed)
+-------------------------------------------------------
+
+> git clone git@github.com:demianbrecht/cookiecutter-es6babelpack.git
+> cd cookiecutter-es6babelpack
+> make cookiecutter
+
+Note: You'll have to run `make cookiecutter` as sudo unless you're running
+from a Python virtualenv.
+
+
+Running
+-------
+
+> cookiecutter gh:demianbrecht/cookiecutter-es6babelpack
+> project_name []: <NAME>
+> project_version [0.1.0]: <VERSION>
+> description []: <DESCRIPTION>
+> author []: <AUTHOR>
+> license [UNLICENSED]: <LICENSE>
+>
+> cd <NAME>
+> make install
+
+The above will create a project under the directory <NAME> and install the
+npm dependencies required to get you up and running. At this point, the only
+other targets of interest are `serve` and `test`. `test` will run mocha
+tests and `serve` will run the project through a webpack-dev-server (source
+code will automatically be rebuilt).
